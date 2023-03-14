@@ -11,26 +11,24 @@ main{
 }
 
 #quadro{
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
     height: 300px;
     width: 300px;
-    background-color: black;
+    background-color: rgb(197, 80, 80);
 }
 
 .form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
+    display: grid;
+    grid-gap: 10px; 
+    justify-items: end;
+
+
 }
 
 .input-number{
     width: 150px;
     margin-bottom: 10px;
-}
 
-.button-calc{
-    width: 70px;
 }
