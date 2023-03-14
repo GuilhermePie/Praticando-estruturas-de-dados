@@ -1,0 +1,36 @@
+*{
+    margin:0 ;
+    padding: 0;
+}
+
+main{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#quadro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    background-color: black;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.input-number{
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.button-calc{
+    width: 70px;
+}
